@@ -25,11 +25,11 @@ function Login () {
                         <input className="formInput inputPassword" type="password" placeholder="Contraseña" required/><br />
                     </div>
                     <div className="loginButton">
-                        <input className="loginBtn" type="submit" placeholder="Ingresar"/>
+                        <input className="loginBtn" type="submit" value="Ingresar"/>
                     </div>
                 </form>
-                <div className="loginRgisterLink">
-                    <span>¿No tienes cuenta? Regístrate <a href="/#">aquí</a></span>
+                <div className="loginRegisterLink">
+                    <span>¿No tienes cuenta? Regístrate <a href="/register">aquí</a></span>
                 </div>
             </div>
         </section>

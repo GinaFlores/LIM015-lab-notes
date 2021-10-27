@@ -1,0 +1,93 @@
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registerH2 {
+    color: #616161;
+    font-size: 0.9rem;
+    padding: 0.4rem 1.8rem;
+    margin: 0.25em 0.2em;
+    text-align: center;
+}
+
+.registerTitle,
+.formRegister,
+.registerLoginLink {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registerH1 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    margin: 0.25em 0.2em;
+    text-align: center;
+}
+
+.inputList .inputUser {
+    background-image: url(../../assets/user-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding: 1rem 1rem 1rem 30px;
+}
+
+.inputList .inputPasswordConfirmd {
+    background-image: url(../../assets/lock-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position-y: center;
+    background-position-x: 5px;
+    padding: 1rem 1rem 1rem 30px;
+}
+
+.registerButton {
+    width: 50%;
+}
+
+.registerBtn {
+    width: 100%;
+    background-color: #6886C5;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.25em 0.2em;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.registerLoginLink {
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    font-weight: 500;
+}
+
+@media (min-width: 600px) {
+    .registerSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .registerContainer {
+        font-size: 2rem;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    .registerSubtitle {
+        width: 80%;
+    }
+    .registerH2 {
+        font-size: 1.1rem;
+        padding: 0.5em 0.9rem 0rem;
+    }
+}
