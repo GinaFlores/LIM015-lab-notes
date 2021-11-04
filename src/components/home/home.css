@@ -6,10 +6,6 @@ header {
     padding: 0.4rem;
 }
 
-/* .headerLogo {
-    width: 6rem;
-} */
-
 .logoHome {
     width: 90%;
     height: 20px;
@@ -39,6 +35,7 @@ header {
 
 .signOut {
     width: 16px;
+    cursor: pointer;
 }
 
 @media (min-width: 600px) {

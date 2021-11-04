@@ -1,0 +1,64 @@
+.containerError {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+}
+
+.textError {
+    margin: 1rem;
+}
+
+.textError span {
+    text-transform: uppercase;
+    color: #87d0dd;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.textError p {
+    padding: 0.3rem;
+    color: #fb8cad;
+    font-size: 1rem;
+}
+
+.buttonError button {
+    background-color: #fb8cad;
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.error404 {
+    width: 23%;
+}
+
+@media (min-width: 600px) {
+    .textError span {
+        font-size: 1.5rem;
+    }
+
+    .textError p {
+        font-size: 1.2rem;
+    }
+
+    .buttonError button {
+        font-size: 1.2rem;
+    }
+}
