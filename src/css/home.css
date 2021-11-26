@@ -16,7 +16,7 @@ header {
 }
 
 .iconSeach {
-    background-image: url(../../assets/search-solid.svg);
+    background-image: url(../assets/search-solid.svg);
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position-y: center;

@@ -33,7 +33,7 @@
 }
 
 .inputList .inputUser {
-    background-image: url(../../assets/user-solid.svg);
+    background-image: url(../assets/user-solid.svg);
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position-y: center;
@@ -42,7 +42,7 @@
 }
 
 .inputList .inputPasswordConfirmd {
-    background-image: url(../../assets/lock-solid.svg);
+    background-image: url(../assets/lock-solid.svg);
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position-y: center;
@@ -81,7 +81,7 @@
         justify-content: center;
     }
     .registerContainer {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .registerSubtitle {
         width: 80%;

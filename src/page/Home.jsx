@@ -1,7 +1,7 @@
 import React from 'react';
-import logoHome from '../../assets/logoNotes.png'
-import signOut from '../../assets/sign-out-alt-solid.svg'
-import '../home/home.css'
+import logoHome from '../assets/logoNotes.png'
+import signOut from '../assets/sign-out-alt-solid.svg'
+import '../css/home.css'
 
 function Home () {
     return(

@@ -1,6 +1,6 @@
 import React from 'react';
-import note404 from '../../assets/note404.png'
-import '../error/error.css'
+import note404 from '../assets/note404.png'
+import '../css/error.css'
 
 function Error() {
     return(

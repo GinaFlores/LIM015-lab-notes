@@ -1,9 +1,8 @@
-import './App.css';
 import React from 'react';
-import Login from './components/login/Login'
-import Register from './components/register/Register';
-import Home from './components/home/Home';
-import Error from './components/error/Error';
+import Login from './page/Login'
+import Register from './page/Register';
+import Home from './page/Home';
+import Error from './page/Error';
 import { BrowserRouter as Router, Switch, Route /* Link */ } from "react-router-dom";
 
 function App() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from '../logo/logo';
-import notesImg from '../../assets/notes.png'
-import '../login/login.css'
+import Logo from '../components/Logo';
+import notesImg from '../assets/notes.png'
+import '../css/login.css'
 
 function Login () {
     return(

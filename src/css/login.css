@@ -59,7 +59,7 @@
 }
 
 .inputList .inputGmail {
-    background-image: url(../../assets/envelope-regular.svg);
+    background-image: url(../assets/envelope-regular.svg);
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position-y: center;
@@ -68,7 +68,7 @@
 }
 
 .inputList .inputPassword {
-    background-image: url(../../assets/lock-solid.svg);
+    background-image: url(../assets/lock-solid.svg);
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position-y: center;
@@ -141,7 +141,7 @@ span a {
         padding: 0;
     }
     .loginContainer {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .loginH2 {
         font-size: 1.5rem;
